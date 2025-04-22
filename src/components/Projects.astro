@@ -1,86 +1,80 @@
----
-import Todo from "../components/Todo.astro";
-import Timer from "./Timer.astro";
-import Weather from "./Weather.astro";
----
-
 <div id="progetti" class="h-32"></div>
-
-<section class="h-full grid grid-cols-12">
+<div class="grid grid-cols-12 mb-10 md:mb-16">
+  <h2 class="col-start-2 col-end-12 text-3xl md:text-5xl font-bold">
+    I miei ultimi progetti
+  </h2>
+</div>
+<section class="h-full grid grid-cols-12 grid-rows-2 md:grid-rows-1 gap-5">
   <div
-    class="col-start-2 col-end-12 grid grid-cols-4 grid-rows-11 gap-5 h-full"
+    class="h-[350px] col-start-2 col-end-12 md:col-start-2 md:col-end-7 bg-[url(/img2.png)] bg-cover bg-center rounded-3xl relative"
   >
-    <div
-      class="h-[210px] md:h-auto col-span-4 md:col-span-2 row-start-1 row-end-2 md:row-span-3 bg-[url(/img2.png)] bg-cover bg-center rounded-3xl relative"
+    <a
+      href="https://studio-yoga-landingpage.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <a
-        href="https://studio-yoga-landingpage.netlify.app/"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
+        class="flex justify-center items-center absolute bottom-3 left-3 h-8 w-8 cursor-pointer"
       >
-        <div
-          class="flex justify-center items-center absolute bottom-3 left-3 h-10 w-10 border-2 rounded-full cursor-pointer"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="gray"
-            class="hover:scale-110 transition duration-200"
-          >
-            <path d="m216-160-56-56 464-464H360v-80h400v400h-80v-264L216-160Z"
-            ></path>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div
-      class="col-span-4 md:col-span-2 row-start-2 row-end-5 md:row-span-6 bg-[url(/img.png)] bg-cover bg-center rounded-3xl relative"
+        <img src="/public/internet.png" alt="" class="w-5 h-5" />
+      </div>
+    </a>
+    <a
+      href="https://github.com/simonegarofalo/landing-page"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <a
-        href="https://ice-cream-shop-project.netlify.app/"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
+        class="flex justify-center items-center absolute bottom-3 left-12 h-8 w-8 cursor-pointer"
       >
-        <div
-          class="flex justify-center items-center absolute bottom-3 left-3 h-10 w-10 border-2 rounded-full cursor-pointer"
+        <svg
+          width="24px"
+          height="24px"
+          viewBox="0 0 654 613"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="gray"
-            class="hover:scale-110 transition duration-200"
-          >
-            <path d="m216-160-56-56 464-464H360v-80h400v400h-80v-264L216-160Z"
-            ></path>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div
-      class="row-start-5 row-end-7 col-span-4 md:col-span-2 row-span-3 md:row-span-3 bg-[#EFEEEC] rounded-3xl relative"
+          <path
+            d="M326.755 51.083C290.997 51.083 255.589 57.6896 222.552 70.5254C189.516 83.3613 159.498 102.175 134.213 125.893C83.1473 173.793 54.459 238.759 54.459 306.5C54.459 419.394 132.608 515.175 240.71 549.146C254.325 551.189 258.681 543.271 258.681 536.375V493.209C183.255 508.534 167.19 458.983 167.19 458.983C154.664 429.355 136.965 421.437 136.965 421.437C112.186 405.601 138.871 406.112 138.871 406.112C166.101 407.9 180.532 432.42 180.532 432.42C204.222 471.243 244.25 459.75 259.77 453.62C262.221 437.018 269.301 425.779 276.925 419.394C216.475 413.008 153.03 391.043 153.03 293.729C153.03 265.378 163.378 242.646 181.077 224.511C178.354 218.126 168.823 191.562 183.8 157.081C183.8 157.081 206.673 150.185 258.681 183.133C280.193 177.514 303.61 174.705 326.755 174.705C349.901 174.705 373.318 177.514 394.829 183.133C446.838 150.185 469.711 157.081 469.711 157.081C484.687 191.562 475.157 218.126 472.434 224.511C490.133 242.646 500.48 265.378 500.48 293.729C500.48 391.298 436.763 412.753 376.041 419.138C385.844 427.056 394.829 442.637 394.829 466.391V536.375C394.829 543.271 399.186 551.444 413.073 549.146C521.175 514.92 599.052 419.394 599.052 306.5C599.052 272.958 592.009 239.745 578.324 208.756C564.64 177.767 544.583 149.61 519.298 125.893C494.013 102.175 463.995 83.3613 430.959 70.5254C397.922 57.6896 362.514 51.083 326.755 51.083Z"
+            fill="black"></path>
+        </svg>
+      </div>
+    </a>
+  </div>
+  <div
+    class="h-[350px] col-start-2 col-end-12 md:col-start-7 md:col-end-12 row-start-2 md:row-start-1 bg-[url(/ice-cream-project.png)] bg-cover bg-center rounded-3xl relative"
+  >
+    <a
+      href="https://ice-cream-shop-project.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <Todo />
-    </div>
-    <div
-      class="row-start-7 row-end-8 col-span-4 md:col-start-3 md:col-end-4 md:row-span-2 bg-[#EFEEEC] rounded-3xl relative"
+      <div
+        class="flex justify-center items-center absolute bottom-3 left-3 h-8 w-8 cursor-pointer"
+      >
+        <img src="/public/internet.png" alt="" class="w-5 h-5" />
+      </div>
+    </a>
+    <a
+      href="https://github.com/simonegarofalo/ice-cream-shop"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <Timer />
-    </div>
-    <div
-      class="row-start-8 row-end-9 col-span-4 md:col-start-4 md:col-end-5 md:row-span-2 bg-[#EFEEEC] rounded-3xl relative"
-    >
-      <Weather />
-    </div>
-    <div
-      class="md:h-auto col-span-4 md:col-span-4 row-start-9 row-end-11 md:row-span-3 flex justify-center items-center rounded-3xl border-4 border-[#EFEEEC] border-dotted relative"
-    >
-      <h3 class="text-[#949494]">Coming soon</h3>
-    </div>
+      <div
+        class="flex justify-center items-center absolute bottom-3 left-12 h-8 w-8 cursor-pointer"
+      >
+        <svg
+          width="24px"
+          height="24px"
+          viewBox="0 0 654 613"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M326.755 51.083C290.997 51.083 255.589 57.6896 222.552 70.5254C189.516 83.3613 159.498 102.175 134.213 125.893C83.1473 173.793 54.459 238.759 54.459 306.5C54.459 419.394 132.608 515.175 240.71 549.146C254.325 551.189 258.681 543.271 258.681 536.375V493.209C183.255 508.534 167.19 458.983 167.19 458.983C154.664 429.355 136.965 421.437 136.965 421.437C112.186 405.601 138.871 406.112 138.871 406.112C166.101 407.9 180.532 432.42 180.532 432.42C204.222 471.243 244.25 459.75 259.77 453.62C262.221 437.018 269.301 425.779 276.925 419.394C216.475 413.008 153.03 391.043 153.03 293.729C153.03 265.378 163.378 242.646 181.077 224.511C178.354 218.126 168.823 191.562 183.8 157.081C183.8 157.081 206.673 150.185 258.681 183.133C280.193 177.514 303.61 174.705 326.755 174.705C349.901 174.705 373.318 177.514 394.829 183.133C446.838 150.185 469.711 157.081 469.711 157.081C484.687 191.562 475.157 218.126 472.434 224.511C490.133 242.646 500.48 265.378 500.48 293.729C500.48 391.298 436.763 412.753 376.041 419.138C385.844 427.056 394.829 442.637 394.829 466.391V536.375C394.829 543.271 399.186 551.444 413.073 549.146C521.175 514.92 599.052 419.394 599.052 306.5C599.052 272.958 592.009 239.745 578.324 208.756C564.64 177.767 544.583 149.61 519.298 125.893C494.013 102.175 463.995 83.3613 430.959 70.5254C397.922 57.6896 362.514 51.083 326.755 51.083Z"
+            fill="black"></path>
+        </svg>
+      </div>
+    </a>
   </div>
 </section>
