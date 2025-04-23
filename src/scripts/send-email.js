@@ -13,9 +13,9 @@ export async function handler(event) {
   try {
     await mj.post('send', { version: 'v3.1' }).request({
       Messages: [{
-        From: { Email: 'tua@email.com', Name: 'Il tuo sito' },
+        From: { Email: 'simonegarofalo96@email.com', Name: 'Simone Garofalo' },
         To: [{ Email: email, Name: name }],
-        Subject: 'Grazie!',
+        Subject: 'Grazie per aver candidato il tuo progetto!',
         TextPart: `Ciao ${name}, grazie!`,
         HTMLPart: html,
       }],
