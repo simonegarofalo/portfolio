@@ -172,7 +172,7 @@ const mailjet = Mailjet.apiConnect(
                   <tbody>
                     <tr>
                       <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;">Nel caso in cui la tua candidatura venga selezionata, ti contatterò personalmente per approfondire le tue esigenze e pianificare insieme i prossimi passi.<br><br> Colgo l'occasione per ricordarti ancora una volta che, quest'iniziativa è totalmente <b>gratuita</b> e <b>non vincolante</b> e che ha come unico obiettivo la realizzazione di un prodotto digitale professionale che possa aiutare un azienda o freelance a realizzare la propria idea di business sul web.</div>
+                        <div style="font-family:Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;">Nel caso in cui la tua candidatura venga selezionata, ti contatterò personalmente per approfondire le tue esigenze e pianificare insieme i prossimi passi.<br><br> Colgo l'occasione per ricordarti ancora una volta che, quest'iniziativa è totalmente <b>gratuita</b> e <b>non vincolante</b> e che ha come unico obiettivo la realizzazione di un prodotto digitale professionale che possa aiutare un'azienda o freelance a realizzare la propria idea di business sul web.</div>
                       </td>
                     </tr>
                   </tbody>
