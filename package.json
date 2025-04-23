@@ -13,6 +13,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "astro": "^5.1.6",
     "flowbite": "^2.5.2",
-    "gsap": "^3.12.5"
+    "gsap": "^3.12.5",
+    "node-mailjet": "^6.0.8"
   }
 }
