@@ -19,8 +19,7 @@ document.querySelector("form").addEventListener("submit", async (e) => {
     window.location.href = "/success-page";
   } else {
     alert("Errore nell'invio della mail!");
-    console.error(data.error);
-  }
+    console.error("Errore nell'invio della mail:", data.error);  }
 });
 
   
