@@ -7,7 +7,7 @@ document.querySelector('#contact-form').addEventListener('submit', async (e) => 
       email: form.email.value,
     };
   
-    const res = await fetch('/.netlify/functions/send-email', {
+    const res = await fetch('/netlify/functions/send-email', {
       method: 'POST',
       body: JSON.stringify(data),
     });
