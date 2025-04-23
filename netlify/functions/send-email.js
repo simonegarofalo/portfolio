@@ -21,7 +21,7 @@ const mailjet = Mailjet.apiConnect(
         Messages: [
           {
             From: {
-              Email: "simonegarofalo96@gmail.com",
+              Email: "simonegarofalo.webdesigner@gmail.com",
               Name: "Simone Garofalo",
             },
             To: [
