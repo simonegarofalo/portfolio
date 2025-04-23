@@ -51,6 +51,11 @@ const mailjet = Mailjet.apiConnect(
       display: block;
       margin: 13px 0;
     }
+    
+    a{
+    text-decoration: none!important;
+    color: inherit!important
+    }
   </style>
   <!--[if mso]>
         <noscript>
