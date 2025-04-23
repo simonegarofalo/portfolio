@@ -1,5 +1,5 @@
 document.querySelector("form").addEventListener("submit", async (e) => {
-  e.preventDefault(); // Previene il redirect automatico
+  e.preventDefault();
 
   const name = document.querySelector("input[name='name']").value;
   const email = document.querySelector("input[name='email']").value;
@@ -15,7 +15,6 @@ document.querySelector("form").addEventListener("submit", async (e) => {
   const data = await res.json();
 
   if (data.success) {
-    // Redirect a pagina di conferma o mostra messaggio
     window.location.href = "/success-page";
   } else {
     alert("Errore nell'invio della mail!");

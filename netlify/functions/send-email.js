@@ -39,7 +39,7 @@ const mailjet = Mailjet.apiConnect(
   
       return {
         statusCode: 200,
-        body: JSON.stringify({ message: "Email inviata!" }),
+        body: JSON.stringify({ success: true, message: "Email inviata!" }),
       };
     } catch (err) {
       console.error(err);
