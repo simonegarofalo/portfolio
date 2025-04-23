@@ -1,7 +1,8 @@
-const mailjet = require('node-mailjet').connect(
-    process.env.MJ_APIKEY_PUBLIC,
-    process.env.MJ_APIKEY_PRIVATE
-  );
+const Mailjet = require('node-mailjet');
+const mailjet = Mailjet.apiConnect(
+  process.env.MJ_APIKEY_PUBLIC,
+  process.env.MJ_APIKEY_PRIVATE
+);
   
   exports.handler = async (event) => {
     const { email, name } = JSON.parse(event.body);
