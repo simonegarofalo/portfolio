@@ -16,6 +16,7 @@ body {
   min-height: 100svh;
   font-family: "Poppins";
   font-size: 16px;
+  font-weight: 300;
 }
 
 /* Animazione logo */
@@ -98,4 +99,8 @@ body {
 
 .special-padding {
   padding: 0px calc(1 / 12 * 100vw) 32px !important ;
+}
+
+.special-margin {
+  margin: 0px calc(1 / 12 * 100vw) 32px !important ;
 }
