@@ -20,8 +20,8 @@ const mailjet = require('node-mailjet').connect(
         Messages: [
           {
             From: {
-              Email: "tuaemail@tuodominio.com",
-              Name: "Il tuo sito",
+              Email: "simonegarofalo96@gmail.com",
+              Name: "Simone Garofalo",
             },
             To: [
               {
@@ -29,8 +29,8 @@ const mailjet = require('node-mailjet').connect(
                 Name: name,
               },
             ],
-            Subject: "Grazie per il tuo messaggio!",
-            TextPart: `Ciao ${name}, grazie per averci scritto.`,
+            Subject: "Grazie per la tua candidatura!",
+            TextPart: `Ciao ${name}, grazie per aver inviato la tua candidatura.`,
             HTMLPart: htmlContent,
           },
         ],
